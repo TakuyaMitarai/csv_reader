@@ -45,11 +45,11 @@ int main()
 
     //0の個数算出
     for(i = 0; i< GEN_MAX - 1; i++) {
-        if(slope[i] > 0.01){
+        if(slope[i] > 0.03){
             count_0++;
         }
     }
-    printf("0の個数は%d\n", count_0);
+    printf("GENは%d\n", count_0);
 
     //区切り箇所表示
     /*
@@ -69,7 +69,7 @@ int main()
     j = 0;
     count_0_1 = 0;
     for(i = 0; i< GEN_MAX - 1; i++) {
-        if(slope[i] > 0.01){
+        if(slope[i] > 0.03){
             count_0_1++;
         }else{
             printf("%d\n", i);
