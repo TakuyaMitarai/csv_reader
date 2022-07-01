@@ -44,4 +44,6 @@ int main()
         }
     }
     printf("GENは%d\n", count_0);
+
+    delete csv;
 }
