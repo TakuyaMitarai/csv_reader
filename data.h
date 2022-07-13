@@ -1,7 +1,7 @@
 #pragma once
 
 #define GEN_MAX     200
-#define EXECUTION_TIMES 50
+#define EXECUTION_TIMES 150
 
 class Data
 {
